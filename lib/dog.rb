@@ -13,6 +13,7 @@ class Dog
 
   def self.all
     @@all.each do |dog|
+      if dog == @name
 
       print("#{dog}")
     end
