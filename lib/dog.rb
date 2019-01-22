@@ -7,7 +7,9 @@ class Dog
   end
 
   def self.all
-    @@all
+    @@all.each do |dog|
+
+      print(dog)
   end
 
 end
