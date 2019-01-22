@@ -10,6 +10,7 @@ class Dog
     @@all.each do |dog|
 
       print(dog)
+    end
   end
 
 end
